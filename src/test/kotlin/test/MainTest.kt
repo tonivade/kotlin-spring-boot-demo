@@ -5,6 +5,7 @@ import kotlin.test.assertEquals
 
 class MainTest {
     @Test fun greatingsTest() {
-        assertEquals("Hello World!", greatings("World"))
+        val main = Main()
+        assertEquals("Hello World!", main.greatings("World"))
     }
 }
