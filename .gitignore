@@ -1,7 +1,10 @@
 .project
+.idea
+*.iml
 .classpath
 .gradle
 .settings
 .vscode
 bin
+lib
 build
